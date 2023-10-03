@@ -1,4 +1,4 @@
-#include "SATWs2.hpp"
+#include "SATWs.hpp"
 #include "Xoshiro-cpp/XoshiroCpp.hpp"
 #include <iostream>
 #include <array>
