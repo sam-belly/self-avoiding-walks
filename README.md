@@ -21,4 +21,6 @@ Although it is an interesting exercise to create open boundary conditions using 
 `HashGraph.hpp`, `Graph.hpp`, and `GraphDFS.hpp` are all about implementing depth-first-search and storing network connectivity when worried about percolation.
 An SATW object contains a connectivity graph - if you don't care about connectivity, it's better not to update the graph (UpdateWalkersNoGraph) because the graph slows down the sim for large particle numbers.
 
+`Xoshiro-Cpp` is an external library for fast PRNG. I find it a bit faster than the default cpp generators. This was a big deal for my 1D simulations as basically the whole simulation time is just the random number generation.
+
 If it's not clear, I'm happy to help.
