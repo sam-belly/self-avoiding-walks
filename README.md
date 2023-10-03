@@ -23,4 +23,4 @@ An SATW object contains a connectivity graph - if you don't care about connectiv
 
 `Xoshiro-Cpp` is an external library for fast PRNG. I find it a bit faster than the `<random>` cpp generators. This was a big deal for my 1D simulations as basically the whole simulation time is just the random number generation.
 
-If it's not clear, I'm happy to help.
+If it's not clear, I'm happy to help. Hopefully it's not horribly buggy, but... I can't make any promises.
